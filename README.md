@@ -1,4 +1,6 @@
-# sse-deliveroo
+# Cron Expression Parser
+
+### Cron Expressions Documentation: https://en.wikipedia.org/wiki/Cron
 
 ## Instructions
 1. Install Node.js
@@ -36,5 +38,10 @@ sse-deliveroo/
   ├── .gitignore
   ├── package-lock.json         # sub-dependency management file of npm (node package manager)
   ├── package.json              # dependency management file of npm (node package manager)
-  └── README.md
+  ├── TASK.md                   # Technical task details
+  └── README.md                 # This file, which contains necessary information
 ```
+
+## References
+Below documentation was used to implement core logic
+- https://en.wikipedia.org/wiki/Cron
