@@ -1,0 +1,14 @@
+{
+  "name": "sse-deliveroo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test-runner.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
