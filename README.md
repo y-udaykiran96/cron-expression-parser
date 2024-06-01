@@ -7,7 +7,10 @@
 2. Clone git repo to local system
 3. Grant execute permissions. Run below command based on system OS.
     - linux/macos: `chmod 777 ./main.js`
-    - windows: ``
+    - windows: 
+        - powershell: `icacls .\main.js /grant Everyone:(F)`
+        - cmd: `icacls main.js /grant Everyone:F`
+
 4. Run main.js file with cron expression and command as input
     ```
     ./main.js "*/15 0 1,15 * 1-5 /usr/bin/find"
